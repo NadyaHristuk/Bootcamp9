@@ -28,6 +28,21 @@
     font-weight: 800;
 }
 
+.main{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.product-list{
+    display: flex;
+    flex-wrap: wrap
+}
+
+.prod-item{
+    width: 255px;
+    margin-right: 50px;
+}
+
 .prod-link:hover .name{
     background-color: #1abc9c;  
 }
