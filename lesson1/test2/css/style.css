@@ -1,48 +1,38 @@
-h1, p{
-    /* width: 300px; */
-    display: inline;
-}
-body{
-    background-color: black;
-}
-img {
-    width: 500px;
-    height: 16px;
-    overflow: hidden;
-    /* text-align: center; */
+*{
+    margin: 0;
+    padding: 0;
 }
 
-img, span, a{
-    display: block;
-    margin-bottom: 25px;
-}
-
-.block{
-    /* box-sizing: border-box; */
-    width: 500px;
-    /* margin-left: auto;
-    margin-right: auto; */
-    padding: 100px 40px 20px 80px;
+.header{
+    padding-top: 50px;
     margin: 0 auto;
-    background-color: antiquewhite;
-
+    width: 1125px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-end;
 }
 
-.block1{
-    background-color: white;
-    width: 700px;
-    margin: auto;
-    padding: 50px;
-}
- 
-.block1 .title, .block1>a{
-    width: 500px;
-    height: auto;
-    display: block;
-    margin: auto;
-    text-align: center;
+.menu{
+    width: 467px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
 }
 
-img{
-    width: 900px;
+.menu-link{
+    text-decoration: none; 
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #0f0101;    
+    text-transform: uppercase;   
+    font-weight: 800;
 }
+
+.prod-link:hover .name{
+    background-color: #1abc9c;  
+}
+
+.prod-link:hover .price{
+    background-color: #333;  
+}
+
