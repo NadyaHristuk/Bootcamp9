@@ -6,8 +6,6 @@
 
 Картина выглядит примерно, таким образом, но зачастую под какие-то разрешения нет необходимости создавать макет, к примеру, под 480px. если макет не ломается на промежутке 768 — 320px.
 
-
-Источник: http://fotodizart.ru/adaptivnyj-dizajn-sajta.html
 http://fotodizart.ru/wp-content/uploads/2015/03/diz-razresenia.jpg
 
 Мedia query и viewport в адаптивном дизайне
