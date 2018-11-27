@@ -20,6 +20,21 @@
     display: flex;
 }
 
+.prod-link:hover{
+    opacity: 0.5;
+    transform: translate(-10px, -10px);
+    box-shadow: 5px 5px #1abc9c;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    transition: all;
+}
+
+
+
+
+
+
+
 .prod-img{
     width: 255px;
     height: 282px;
