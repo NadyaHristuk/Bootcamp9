@@ -1,25 +1,25 @@
 .header {
-	width: 320px;	
+	width: 100%;	
 	margin: auto;
 }
 .header-nav{
 	background-color: #373c3f;
 	display: flex;
-  justify-content: space-between;
-align-items: center;
+    justify-content: space-between;
+    align-items: center;
 }
 .header-title, .header-menu-item{
-  font-size: 16px;
+    font-size: 1rem;
     margin-left: 5%;
 }
 .header-button{
   display: block;
-	width: 41px;
-  height: 37px;
+  width: 2.5625rem;
+  height: 2.3125rem;
   background-image: url(../img/crop@1X.png);
   border: none;
   background-size: cover;     
-background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 
 .header-menu-wr{
@@ -28,16 +28,16 @@ background-repeat: no-repeat;
 
 .header-menu{
   position: absolute;
-  top: 37px;
+  top: 2.3125rem;
   right: 0;
   display: none;
   list-style: none;
   background-color: #373c3f;
-  width: 170px;  
+  width: 10.625rem;   
 }
 .header-menu-item, .header-title{
   color: #fff;
-  padding: 5px;
+  padding: 0.3125rem;
 }
 
 .header-menu-wr:hover .header-menu{
@@ -45,15 +45,13 @@ background-repeat: no-repeat;
 }
 
 @media (min-width: 640px){
-    .header {
-        width: calc(320px*2);        
-    }
+    
     .header-button{        
-        width: 82px;
-        height: 74px;           
+        width: 5.125rem;
+        height: 4.625rem;           
     }
     .header-menu-item, .header-title{
-        font-size: 24px;
+        font-size: 1.5rem;
     }
     .header-menu{
         top: calc(37px*2);
