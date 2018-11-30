@@ -1,0 +1,25 @@
+.box{
+    height: 750px;    
+}
+
+.sidebar{
+    background-color: blue;
+    height: 250px;
+    border: 5px solid yellowgreen;
+}
+
+.content{
+    background-color: red;
+    height: 250px;
+    border: 5px solid yellowgreen;
+}
+
+.par{
+    background-color: white;
+    border: 5px solid yellowgreen;
+}
+
+.title{
+    background-color: rgb(37, 212, 31);
+    border: 5px solid yellowgreen;
+}
