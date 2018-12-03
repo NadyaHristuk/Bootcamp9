@@ -23,7 +23,7 @@
 }
 .jump{
     /* max-width: 1440px; */
-    min-width: 320px;
+    min-width: 20rem;
     margin: 0 auto;
     background-image: url("../img/daft_punk_7-wallpaper-2880x1800@1X.png");
     background-size: cover;
@@ -45,4 +45,59 @@
     width: 61.8%;
     display: block;
     margin: 0 auto;
+}
+
+.section-two{
+    padding: 0 1rem;
+}
+.future-title{
+    margin: 31.2% 0;
+}
+.future-text{
+    margin: 1.875rem 0;
+}
+.future-buttons{
+    display: flex;
+    margin: 3.4375rem 0;    
+}
+.apple, .gplay{
+    width: 6.25rem;
+    height: 1.9375rem;
+}
+.apple{
+    background-image: url('../img/apple.png+@2x@1X.png');
+}
+.gplay{
+    background-image: url('../img/google.png+@2x@1X.png');
+}
+.future-img{
+    display: block;
+    width: 100%;
+}
+@media(min-width: 768px){
+    .section-two{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .future{
+        width: 40%;
+        margin: 16.27% 5%;
+    }
+    .future-img{
+        width: 50%;
+    }
+    .future-title{
+        margin: 1rem 0;
+    }
+}
+@media(min-width: 1440px){
+    .section-two{
+        max-width: 1440px;
+        margin: auto;
+    }
+    .future{
+        margin: 8.6% auto;
+        width: 29.86%;
+    }
 }
