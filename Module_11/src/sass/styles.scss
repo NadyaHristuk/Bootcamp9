@@ -1,0 +1,74 @@
+/*
+   Import partials below
+*/
+// @import './normalize';
+@import './fonts.scss';
+*{
+   margin: 0;
+   padding: 0;
+}
+
+$font-family: 'Roboto';
+
+@mixin font($font-family, $font-size, $color) {
+   font-family: $font-family;
+   font-size: $font-size;
+   color: $color;
+} 
+
+$color: (
+   main-yellow: #fed136,
+   main-white: #ffffff,
+   title-black: #222222,
+   bg-gray: #f7f7f7
+);
+
+$list: (
+   font-titile: 40px,
+   font-subtitle:16px,
+   font-par: 14px   
+);
+
+%button {
+   background-color: map-get($color, main-yellow); 
+   padding: 25px 51px;
+   color: map-get($color, main-white);
+   display: block;
+ }
+
+ %flex {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .wrapper{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/Background_Image@1X.png');
+    background-size: cover;
+ }
+ 
+ .header{
+    width: 58.3125rem;
+    padding-top: 4.5625rem;
+    margin: 0 auto;   
+   @extend %flex;
+ }
+
+ .menu{  
+    width: 30rem;      
+    @extend %flex;
+    list-style: none;
+    &__link{
+       text-decoration: none;
+       @include font('Montserrat', map-get($list, font-par), map-get($color, main-white));
+       text-transform: uppercase;
+    }
+ }
+
+ .welcome{
+   text-align: center;
+   color: map-get($color, main-white);
+ }
+
+ 
+
+
